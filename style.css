@@ -14,13 +14,11 @@ h1{
     margin-bottom: 100px;
 }
 .half-width{
-    border: 1px solid red;
     width: 50%;
     padding: 5%;
     padding-top: 10%;
 }
 #top-image img{
-    border: 1px solid red;
     width: 40vw;
     margin-right: 50px;
     margin-top: 20px;
@@ -44,7 +42,6 @@ background-image: url(images/top-banner.png);
 background-repeat: no-repeat;
 }
 #bottom-image img{
-    border: 1px solid red;
     width: 40vw;
     margin-right: 50px;
     margin-top: 20px;
@@ -60,9 +57,37 @@ background-repeat: no-repeat;
 }
 
 .half-second{
-    border: 1px solid red;
     width: 50%;
     padding: 5%;
     padding-top: 12%;
     padding-left: 20px;
+}
+.rong{
+    color: rgb(1, 4, 169);
+}
+.exi{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 75px;
+}
+.ex{
+    margin: 10px;
+    padding: 0 20px;
+    box-shadow: 10px 10px 20px 5px rgba(91, 85, 85, 0.712);
+}
+.left{
+    
+    border-left: 7px solid tomato;
+    border-radius: 7px;
+}
+.right{
+    
+    border-left: 7px solid blue;
+    border-radius: 7px;
+}
+footer{
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
 }
